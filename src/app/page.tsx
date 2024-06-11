@@ -58,12 +58,14 @@ export default function Home() {
             height={37}
             priority
           /> */}
-          <img
+          <Image
             className="mx-auto h-10 w-auto invert mb-6 w-1/6 h-1/6 max-h-24"
-            src="chef_hat_1.png"
+            height={100}
+            width={100}
+            src="/chef_hat_1.png"
             alt="Easty Logo"
           />
-          <h1 className={`mb-3 text-5xl font-semibold`}>Eatsy. It's easy!</h1>
+          <h1 className={`mb-3 text-5xl font-semibold`}>Eatsy. It&apos;s easy!</h1>
 
           <h2 className={`m-0 text-lg max-w-[30ch] text-sm opacity-80`}>Search for recipes in the bar up above!</h2>
         </div>
@@ -76,7 +78,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={`mb-3 text-2xl font-semibold`}>
-              Docs (D'OH!) {' '}
+              Docs (D&apos;OH!) {' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>

@@ -2,9 +2,9 @@
 
 ## Description
 
-Eatsy is a website for users to look up recipes for meals. Users can also create an account, log in, and save searched recipes for later viewing.
+Eatsy is a full-stack website for users to look up recipes for meals. Users can also create an account, log in, and save searched recipes for later viewing.
 
-This app uses Next.js and Vercel for deployment, Prisma and MongoDB for managing & storing user databases, Tailwind CSS for styling, Spoonacular for recipe searching, .
+This app uses Next.js and Vercel for web deployment, Prisma and MongoDB for managing & storing user databases, Tailwind CSS for styling, and Spoonacular for recipe searching.
 
 ## Usage
 
@@ -25,8 +25,8 @@ Recipes can also be saved after signing in:
 
 ## Credits
 
-- Vercel for providing the ``create-next-app`` boilerplate to build off of.
-  - Website: <https://vercel.com/templates/next.js/nextjs-boilerplate>
+- Vercel for developing Next.js & providing the ``create-next-app`` boilerplate to build off of.
+  - Boilerplate: <https://vercel.com/templates/next.js/nextjs-boilerplate>
   - GitHub: <https://github.com/vercel/vercel/tree/main/examples/nextjs>
 
 - Spoonacular for developing the RESTful API for food search & database purposes.
